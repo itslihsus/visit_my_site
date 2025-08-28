@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushil Paudel - Portfolio</title>
+    <meta name="description" content="Sushil Paudel - Computer Engineer, Cybersecurity Enthusiast, and Public Speaker from Nepal">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Sushil Paudel</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#leadership" class="nav-link">Leadership</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-avatar">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-inner">
+                        <img src="/Images/cv photo.jpg" alt="Sushil Paudel">
+                    </div>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Sushil Paudel</span>
+                </h1>
+                <p class="hero-tagline">
+                    <span class="tagline-highlight">Computer Engineer</span> | 
+                    <span class="tagline-highlight">Cybersecurity Enthusiast</span> | 
+                    <span class="tagline-highlight">Public Speaker</span>
+                </p>
+                <p class="hero-description">
+                    Hi, I'm Sushil Paudel, a computer engineering student with a passion for cybersecurity and leadership. Welcome to my portfolio!
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+                <span>Scroll Down</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get to know me</span>
+                <h2>About Me</h2>
+                <p>Discover my journey, education, and what drives my passion for technology</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-left">
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Education</h3>
+                            <h4>Bachelor of Computer Engineering</h4>
+                            <p class="institution">Cosmos College of Management & Technology</p>
+                            <div class="location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Lalitpur, Nepal</span>
+                            </div>
+                            <p class="description">
+                                Pursuing my degree with a focus on cybersecurity, software development, and emerging technologies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-right">
+                    <h3 class="interests-title">Interests & Expertise</h3>
+                    <div class="interests-grid">
+                        <div class="interest-card">
+                            <div class="interest-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="interest-content">
+                                <h4>Cybersecurity & Ethical Hacking</h4>
+                                <p>Passionate about identifying vulnerabilities and securing digital systems against threats</p>
+                                <div class="interest-skills">
+                                    <span>Penetration Testing</span>
+                                    <span>Vulnerability Assessment</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="interest-card">
+                            <div class="interest-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="interest-content">
+                                <h4>Backend Development</h4>
+                                <p>Building robust, scalable server-side applications and RESTful APIs</p>
+                                <div class="interest-skills">
+                                    <span>Django</span>
+                                    <span>API Design</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="interest-card">
+                            <div class="interest-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <div class="interest-content">
+                                <h4>Networking & Infrastructure</h4>
+                                <p>Designing and implementing secure, efficient network architectures</p>
+                                <div class="interest-skills">
+                                    <span>Network Security</span>
+                                    <span>System Administration</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Work</span>
+                <h2>Featured Projects</h2>
+                <p>A showcase of my technical projects and contributions</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=200&width=350" alt="Phishing Detection Project">
+                        <div class="project-overlay">
+                            <a href="https://github.com/itslihsus/final_year_project.git" target="_blank" class="project-demo">
+                                <i class="fab fa-github"></i>
+                                <span>View Code</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Phishing Website Detection using ML</h3>
+                            <span class="project-badge">Featured</span>
+                        </div>
+                        <p class="project-description">
+                            Advanced machine learning model that analyzes URL patterns, content features, and behavioral indicators to detect phishing websites with high accuracy and minimal false positives.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag primary">Django REST</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-star"></i>
+                                <span>95% Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Security Focus</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=200&width=350" alt="Agriculture Platform">
+                        <div class="project-overlay">
+                            <a href="https://github.com/sushilpaudel" target="_blank" class="project-demo">
+                                <i class="fab fa-github"></i>
+                                <span>View Code</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Agriculture Platform App</h3>
+                        <p class="project-description">
+                            Mobile application connecting farmers with buyers, featuring real-time market prices, crop management, and secure transactions.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Cloud Firestore</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=200&width=350" alt="SFTP Setup">
+                        <div class="project-overlay">
+                            <a href="https://github.com/sushilpaudel" target="_blank" class="project-demo">
+                                <i class="fab fa-github"></i>
+                                <span>View Code</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>SFTP Setup on VMware</h3>
+                        <p class="project-description">
+                            Secure file transfer protocol implementation on virtual machines with encrypted data transmission and access controls.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">VMware</span>
+                            <span class="tech-tag">Linux</span>
+                            <span class="tech-tag">SSH</span>
+                            <span class="tech-tag">Network Security</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=200&width=350" alt="Django Applications">
+                        <div class="project-overlay">
+                            <a href="https://github.com/sushilpaudel" target="_blank" class="project-demo">
+                                <i class="fab fa-github"></i>
+                                <span>View Code</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Django Web Applications</h3>
+                        <p class="project-description">
+                            Full-stack web applications with user authentication, RESTful APIs, and responsive design patterns.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Expertise</span>
+                <h2>Skills & Technologies</h2>
+                <p>The tools and technologies I use to bring ideas to life</p>
+            </div>
+
+            <div class="skills-container">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Programming</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML/CSS</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">C</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Django</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">REST API</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="82%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">React</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="72%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3>Cybersecurity</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Kali Linux</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Wireshark</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="78%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Ethical Hacking</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h3>Tools & Technologies</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">VMware</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Firebase</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="leadership">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Leadership Journey</span>
+                <h2>Leadership & Community</h2>
+                <p>My involvement in leadership roles and community building</p>
+            </div>
+
+            <div class="leadership-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-inner"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <div class="card-header">
+                                <div class="role-info">
+                                    <h3>Deputy Campus Director</h3>
+                                    <p class="organization">Hult Prize, Cosmos College</p>
+                                </div>
+                                <div class="timeline-period">
+                                    <span class="period-badge current">Sep 2023 - Jun 2025</span>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="role-description">
+                                    Leading event planning and organizing various programs related to idea pitching and training sessions for students. Fostering entrepreneurial mindset and innovation among peers.
+                                </p>
+                                <div class="role-achievements">
+                                    <div class="achievement">
+                                        <i class="fas fa-users"></i>
+                                        <span>200+ Students Engaged</span>
+                                    </div>
+                                    <div class="achievement">
+                                        <i class="fas fa-lightbulb"></i>
+                                        <span>15+ Innovation Sessions</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-inner"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <div class="card-header">
+                                <div class="role-info">
+                                    <h3>Class Coordinator</h3>
+                                    <p class="organization">Cosmos ICT Club</p>
+                                </div>
+                                <div class="timeline-period">
+                                    <span class="period-badge">Aug 2022 - Dec 2023</span>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="role-description">
+                                    Anchored and organized tech talks, workshops, and coding competitions for students. Bridged the gap between academic learning and practical industry skills.
+                                </p>
+                                <div class="role-achievements">
+                                    <div class="achievement">
+                                        <i class="fas fa-microphone"></i>
+                                        <span>10+ Tech Talks</span>
+                                    </div>
+                                    <div class="achievement">
+                                        <i class="fas fa-trophy"></i>
+                                        <span>5+ Competitions</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Let's Connect</span>
+                <h2>Get In Touch</h2>
+                <p>Ready to discuss opportunities in cybersecurity and technology? Let's start a conversation!</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email Me</h3>
+                            <p>paudelsushil65@gmail.com</p>
+                            <a href="mailto:paudelsushil65@gmail.com" class="contact-link">Send Message</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Lalitpur, Nepal</p>
+                            <span class="contact-link">Available for Remote Work</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Let's Talk</h3>
+                            <p>Available for consultation</p>
+                            <a href="#contact" class="contact-link">Schedule a Call</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <h3>Follow Me</h3>
+                    <div class="social-grid">
+                        <a href="https://www.linkedin.com/in/sushil-paudel-7ab477250/" target="_blank" class="social-btn linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                            <div class="social-info">
+                                <span class="social-name">LinkedIn</span>
+                                <span class="social-handle">@sushil-paudel</span>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/itslihsus" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i>
+                            <div class="social-info">
+                                <span class="social-name">GitHub</span>
+                                <span class="social-handle">@itslihsus</span>
+                            </div>
+                        </a>
+
+                        <a href="mailto:paudelsushil65@gmail.com" class="social-btn email">
+                            <i class="fas fa-envelope"></i>
+                            <div class="social-info">
+                                <span class="social-name">Email</span>
+                                <span class="social-handle">Direct Contact</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+               <!-- <div class="footer-left">
+                    <div class="footer-logo">
+                        <span>Sushil Paudel</span>
+                    </div>
+                    <p>Computer Engineer passionate about cybersecurity and innovation.</p>
+                </div> -->
+                <div class="footer-center">
+                    <p>&copy; 2025 Sushil Paudel. All rights reserved.</p>
+                </div>
+               <!-- <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div> -->
+            </div>
+            <!-- <div class="footer-bottom">
+                <p>&copy; 2025 Sushil Paudel. All rights reserved. Built with passion and code.</p>
+            </div> -->
+        </div>
+    </footer> 
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
